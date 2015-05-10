@@ -17,7 +17,7 @@ int main () {
 	
 	
 	for (celcius = LOWER ; celcius <= UPPER ; celcius = celcius + STEP)
-		printf("%3d%6.1f/n", celcius , getCelcius(celcius) );
+		printf("%3d%6.1f\n", celcius , getCelcius(celcius) );
 		
 }
 
